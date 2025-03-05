@@ -1,0 +1,228 @@
+/* Global Styles */
+
+body{
+    background-color: #1b3324;
+    font-family: "Big Shoulders Stencil", sans-serif;
+}
+
+#container ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.heading_style{
+    text-align: center;
+    color: #e0e0e0;
+    text-shadow: 2px 2px 2px black
+}
+
+img{
+    display: block;
+    width: 80%;
+    margin: 5px auto;
+}
+
+p{
+    color: #e0e0e0;
+}
+
+li{
+    color: #e0e0e0;
+}
+
+a{
+    color: #1b3324;
+}
+
+a:hover{
+    color: rgb(99, 211, 137);
+}
+
+footer{
+    color: #e0e0e0;
+}
+
+/* Mobile Styles */
+
+@media(min-width: 320px){
+
+    #vid{
+        display: none;
+    }
+
+    #container{
+        background: rgb(45, 105, 65);
+        border: 3px solid #e0e0e0;
+        border-radius: 10px;
+    }
+    
+    nav{
+        background-color: #1b3324;
+        padding: 5px;
+        text-align: center;
+        margin: 10px;
+        border-radius: 10px;
+        border-color: #e0e0e0;
+        border: 2px solid #e0e0e0;
+    }
+
+    nav ul{
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav li{
+        display: block;
+    }
+
+    nav li a{
+        display: block;
+        height: 30px;
+        color: rgb(39, 182, 87);
+        background-color: rgb(55, 112, 74);
+        text-decoration: none;
+        font-size: 22px;
+        margin-top: 4px;
+        line-height: 30px;
+        border-radius: 10px;
+    }
+
+    nav li a:hover{
+        background-color: #1b3324;
+        color: #e0e0e0;
+    }
+
+    #banner{
+        width: 85%;
+        display: block;
+        margin: 0px auto;
+        padding: 10px;
+    }
+
+    main{
+        padding: 15px;
+    }
+
+    p{
+        font-size: 17px;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    h2{
+        font-size: 32px;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+
+    footer{
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+/* Tablet Styles */
+
+@media(min-width: 768px){
+
+    #container{
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    nav li{
+        display: inline-block;
+    }
+
+    nav li a{
+        width: 150px;
+        margin: 5px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    #banner{
+        width: 75%;
+    }
+
+    .tall_img{
+        width: 50%;
+    }
+
+    .vertical_img{
+        width: 35%;
+    }
+
+}
+
+/* Desktop Styles */
+
+@media(min-width: 1024px){
+
+    #vid{
+        width: 100%;
+        height: auto;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        z-index: -100;
+        opacity: 0.5;
+        display: flex;
+    }
+
+    #container{
+        width: 70%;
+        margin: 20px auto;
+        border: 5px solid rgb(224, 224, 224, 0.5);
+        background: rgb(72, 162, 102, 0.5);
+    }
+
+    nav{
+        padding: 0px;
+    }
+
+    nav li a{
+        width: 175px;
+        height: 50px;
+        line-height: 50px;
+        margin: 5px;
+    }
+
+    p{
+        text-shadow: 1px 1px 1px black;
+    }
+
+    a{
+        text-shadow: none;
+    }
+
+    #dualcol{
+        display: flex;
+    }
+
+    .column{
+        width: 50%;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    #tricol{
+        display: flex;
+    }
+    
+    .tricolumn{
+        width: 33.33%;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    hr{
+        display: none;
+    }
+
+}
