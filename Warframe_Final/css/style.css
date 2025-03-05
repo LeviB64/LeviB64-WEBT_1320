@@ -201,7 +201,7 @@ footer{
         text-shadow: none;
     }
 
-    #dualcol{
+    .dualcol{
         display: flex;
     }
 
@@ -211,7 +211,7 @@ footer{
         margin: 10px;
     }
 
-    #tricol{
+    .tricol{
         display: flex;
     }
     
